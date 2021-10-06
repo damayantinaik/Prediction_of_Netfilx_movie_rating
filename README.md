@@ -1,4 +1,5 @@
-# Predicting Netflix Movies rating(user review)
-# Springboard_Week_7_Capstone_Project_Netfilx
+# Predicting Netflix Movies rating
+
+practice writing in readme
 **Introduction**
-__In
+__Introduction__
