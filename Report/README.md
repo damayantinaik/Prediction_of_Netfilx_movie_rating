@@ -106,12 +106,14 @@ max_depth: 7	0.507(train)
 The final Gradient Boostimng model with r2_score : 0.50 was applied on the unseen movies to determine their ratings. The model performance was very close to train dataset with r2_score: 0.47.
 
 The model optimization without and with PCA have been discussed in three separate jupyter notebooks Part-1, Part-II Part-III and available in Github in following links:
+
 [Model Development, Part-I jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_final_Part_I_Report.ipynb)
 
 [Model Development, Part-II jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_final_Part_II_Report.ipynb)
 
 [Model Development, Part-III jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_PCAall_final_Part_III_Report.ipynb)
-8. Future Recommendations:
+
+## 8. Future Recommendations:
 In this project, all the possible ML predictive models have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, I think, the model performance can be improved with addition of  more features like quality of music, quality of picture, actors ranking, users age, chorography etc. Hence, in future,  data on these should also be collected for analysis and ML model building . 
 
 ## 9. Acknowledgement
