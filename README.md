@@ -20,19 +20,19 @@ https://www.imdb.com/interfaces/
 Both datasets lists movies along with other features as columns. However, based on my requirement, I selected features those required for the predictive model building. To achieve this, I did data wrangling and the following were carried out: 
   
 **Problem-1:** Kaggle dataset listed both movies and TV shows. 
-Solution: I separated out the TV shows and only kept the movies for further data processing and model building.  
+**Solution:** I separated out the TV shows and only kept the movies for further data processing and model building.  
 
-Problem-2: The IMDB dataset has listed titles and original titles both for movies. 
-Solution: I dropped the ‘title’ column preserving only the ‘original_title’.
+**Problem-2:** The IMDB dataset has listed titles and original titles both for movies. 
+**Solution:** I dropped the ‘title’ column preserving only the ‘original_title’.
 
-Problem-3: The duration time was including both numbers and unit(minute). 
-Solution: Minute was deleted and only numerical value was kept.
+**Problem-3:** The duration time was including both numbers and unit(minute). 
+**Solution:** Minute was deleted and only numerical value was kept.
 
-Problem-5: IMDB and Kaggle dataset both contains some columns (date_published, metascore, usa_gross_income, worlwide_gross_income, budget, reviews_from_critics) which seems to be not useful for predictive model building. 
-Solution: These columns were deleted from respective datasets.
+**Problem-5:** IMDB and Kaggle dataset both contains some columns (date_published, metascore, usa_gross_income, worlwide_gross_income, budget, reviews_from_critics) which seems to be not useful for predictive model building. 
+**Solution:** These columns were deleted from respective datasets.
 
-Problem-6: After the conversion of the date_added column to date, the year was extracted. The output obtained was float instead of integer. 
-Solution: To find out the reason, further investigation was carried out which shows that this is happening due to the presence of the null values in time stamp. To handle this, the null values were  filled with 0, then converted those to integer.
+**Problem-6:** After the conversion of the date_added column to date, the year was extracted. The output obtained was float instead of integer. 
+**Solution:** To find out the reason, further investigation was carried out which shows that this is happening due to the presence of the null values in time stamp. To handle this, the null values were  filled with 0, then converted those to integer.
 
 Finally rows with Null values are removed to prepare the dataset for EDA( Exploratory Data Analysis). 
 
