@@ -64,7 +64,7 @@ To predict the movies rating, different regression models: Simple Linear Regress
 To improve the models’ performance, PCA (Principal Component Analysis) was applied on the data and models were trained again. However, though it helped Logistic Regression to improve its performance and run time, it couldn’t improve performance of both ensemble models. 
 Best model: Gradient Boosting Regressor was saved for deployment and tested on unseen data. 
 
-![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/model_r2_score.jpg)
+![]()
 
 
 Below is a table listing the best features, hyperparameters, and metrics of the best model:
