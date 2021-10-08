@@ -76,7 +76,7 @@ Feature engineering was carried out on both training and testing datasets as fol
 1. Few numerical columns had very high outliers, which were not mistakenly entered. However, as it might bias the ML (Machine Learning) model, hence, to avoid this, imputation was carried out, assigning  95th percentile value of the respective column to the outliers.
 1. Finally, all the dummies columns were added to the respective main datasets and original categorical columns were dropped.
 
-## 7. ML models
+## 7. Machine Learning (ML) models
 To predict the movies rating, different regression models: Simple Linear Regression, Lasso Regression, Ridge Regression, Random Forest Regressor, Gradient Boosting Regressor were developed. 
 •	The Simple Linear regression model performance was poor, however it improved significantly when regularization was applied. Among Lasso and Ridge, the later one  performed better with r2_score (test set): 0.42. 
 •	To have better performance, ensemble model Random Forest Regressor was developed. The highest r2_score obtained with this was 0.44. 
