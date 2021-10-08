@@ -19,6 +19,7 @@ The data was collected from Kaggle and IMDB website. The links are
 
 
  ## 4. Data Cleaning/wrangling
+ [Data wrangling jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Capstone_Project_Netflix_Data_Wrangling_submission4_Report.ipynb)
 
 Both datasets lists movies along with other features as columns. However, based on my requirement, I selected features those required for the predictive model building. To achieve this, I did data wrangling and the following were carried out: 
   
@@ -39,8 +40,6 @@ Both datasets lists movies along with other features as columns. However, based 
 
 Finally rows with Null values are removed to prepare the dataset for EDA( Exploratory Data Analysis). 
 
-The jupyter notebook for data import and data wrangling can be obtained at 
-[Data wrangling jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Capstone_Project_Netflix_Data_Wrangling_submission4_Report.ipynb)
 
 ## 5. Exploratory Data Analysis (EDA)
        
