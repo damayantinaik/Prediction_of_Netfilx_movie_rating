@@ -61,6 +61,10 @@ In USA, India and UK top movie production companies are ‘Metro-Goldwyn-May‘,
 
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/USA_movie_duration.png)
 
+![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Indian_movie_duration.png)
+
+
+
 
 ## 6. Feature Engineering
 As the IMDB dataset was very large as compared to Kaggle dataset, before feature engineering, I formed two new datasets out of it. Movies, which were found only in IMDB dataset, but not in Kaggle were separated out and used for building the predictive model, whereas movies common to both are used for testing the model. 
