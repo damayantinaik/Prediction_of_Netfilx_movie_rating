@@ -105,7 +105,7 @@ max_depth: 7	0.507(train)
 
 The final Gradient Boostimng model with r2_score : 0.50 was applied on the unseen movies to determine their ratings. The model performance was very close to train dataset with r2_score: 0.47.
 
-The model optimization without and with PCA have been discussed in three separate jupyter notebooks Part-1, Part-II Part-III and available in Github in following links:
+The model optimization without and with PCA have been discussed in three separate jupyter notebooks as Model Development Part-1, Part-II Part-III and available in Github in following links:
 
 [Model Development, Part-I jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_final_Part_I_Report.ipynb)
 
