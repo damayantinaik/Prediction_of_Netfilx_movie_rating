@@ -54,6 +54,8 @@ Detail investigations into each column of both datasets were carried out and fol
 3. Columbia Pictures             
 In USA, India and UK top movie production companies are ‘Metro-Goldwyn-May‘, ‘NH Studioz’ and  ‘The Rank Organisation’ respectively. 
 •	Both datasets show most of the movies are of length (approximately) 100 mins. However, it varies for different countries. In USA and UK movie length is ~100 minutes, whereas in India movies are of 150 minutes.
+
+
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Overall_movie_duration.png)
 
 
