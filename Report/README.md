@@ -95,7 +95,7 @@ To improve the models’ performance, PCA (Principal Component Analysis) was app
 **Best model:** Gradient Boosting Regressor was saved for deployment and tested on unseen data. 
 The two tables below list the details about the models. 
 
-![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/model_r2_score.jpg)
+![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/r2_score_models.PNG)
 ![]()
 
 
