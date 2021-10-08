@@ -8,8 +8,11 @@ Netflix, a subscription-based streaming service offers online streaming of films
 
 User rating(review) plays an important role in recommendation system. The users (called subscribers/viewers/member) rate movies based on various features of  a movie like genre, actor, director, title, language, country, duration, production company etc. History of users choice on different types of movies also helps to predict the rating of the unseen movie. 
 
+
 ## 2. Problem statement
+
 Different predictive models will be developed to predict movies users’ rating and the best one will be selected based on the R2-score (co-efficient of determination) i.e how close the actual ratings are close to the predicted values. 
+
 
 ## 3. Data:
  
