@@ -1,4 +1,4 @@
-# Predicting Netflix Movies rating
+# Predicting Netflix Movies rating (user review)
 
 ## 1. Introduction
 
