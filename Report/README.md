@@ -69,6 +69,7 @@ In USA, India and UK top movie production companies are ‘Metro-Goldwyn-May‘,
 
 
 ## 6. Feature Engineering
+
 [Pre-processing and Taining Data Development](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_Pre_processing_training_data_development_submission2_Report.ipynb)
 As the IMDB dataset was very large as compared to Kaggle dataset, before feature engineering, I formed two new datasets out of it. Movies, which were found only in IMDB dataset, but not in Kaggle were separated out and used for building the predictive model, whereas movies common to both are used for testing the model. 
 Feature engineering was carried out on both training and testing datasets as follows: 
