@@ -5,17 +5,17 @@
 
 User rating(review) plays an important role in recommendation system. The users (called subscribers/viewers/member) rate movies based on various features of  a movie like genre, actor, director, title, language, country, duration, production company etc. History of users choice on different types of movies also helps to predict the rating of the unseen movie. 
 
-2. Problem statement:
+## 2. Problem statement:
 Different predictive models will be developed to predict movies users’ rating and the best one will be selected based on the R2-score (co-efficient of determination) i.e how close the actual ratings are close to the predicted values. 
 
-3. Data:
-
+## 3. Data:
+ 
 The data was collected from Kaggle and IMDB website. The links are 
 https://www.kaggle.com/shivamb/netflix-shows
 https://www.imdb.com/interfaces/
 
 
- 4. Data Cleaning/wrangling:
+ ## 4. Data Cleaning/wrangling:
 
 Both datasets lists movies along with other features as columns. However, based on my requirement, I selected features those required for the predictive model building. To achieve this, I did data wrangling and the following were carried out: 
   
@@ -39,13 +39,13 @@ Finally rows with Null values are removed to prepare the dataset for EDA( Explor
 The jupyter notebook for data import and data wrangling can be obtained at 
 https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Capstone_Project_Netflix_Data_Wrangling_submission4.ipynb
 
-5. Exploratory Data Analysis (EDA):
+## 5. Exploratory Data Analysis (EDA):
        
 Detail investigations into each column of both datasets were carried out and following conclusions were drawn:
 •	Both datasets show USA ranked Number One in movie production, while India ranked Second followed by United Kingdom in Third place.
  The jupyter notebook containing the EDA can be found at: https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Netflix_EDA_submission2.ipynb
 
-6. Feature Engineering:
+## 6. Feature Engineering:
 As the IMDB dataset was very large as compared to Kaggle dataset, before feature engineering, I formed two new datasets out of it. Movies, which were found only in IMDB dataset, but not in Kaggle were separated out and used for building the predictive model, whereas movies common to both are used for testing the model. 
 Feature engineering was carried out on both training and testing datasets as follows: 
 •	Dummie variables for all the categorical columns: genre, language, actors, directors, writers, production company were created. For genre and language, the dummies for all the unique values were carried out, because it listed few varieties (<300),  however for rest of the columns, dummies for top 200 values in each column were obtained.
@@ -85,7 +85,7 @@ The model optimization without and with PCA have been discussed in three separat
 8. Future Recommendations:
 In this project, all the possible ML predictive models: Simple linear Regression, Lasso Regression, Ridge Regression, Random Forest Regressor, Gardient Boosting Regressor have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, the model performance is not very good. I think, the model performance can be improved with addition of  more features like quality of music, quality of picture, actors ranking, users age, chorography etc. Hence, in future,  data on these should also be collected for analysis and ML model building . 
 
-**9. Acknowledgement:**
+## 9. Acknowledgement:
  I am grateful to Python developer community for providing many rich, versatile libraries to carry out all types of Data analysis and ML model building. I thank my mentor Yadunath Gupta for all his thoughtful guidance which helped me to dig deep into the project objective and solution, also  his constant encouragement to include advance pythonic way to write the code. Also, I like to thank springboard supporting staffs  for their  constant encouragement and my best services to gain knowledge in Data science.
 
 
