@@ -96,12 +96,9 @@ To improve the models’ performance, PCA (Principal Component Analysis) was app
 The two tables below list the details about the models. 
 
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/r2_score_models.PNG)
-![]()
+![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/gradient_boosting_score.PNG)
 
-
-
-
-The final Gradient Boostimng model with r2_score : 0.50 was applied on the unseen movies to determine their ratings. The model performance was very close to train dataset with r2_score: 0.47.
+The final Gradient Boostimng model was applied on the unseen movies to determine their ratings. The model performance was very close to train dataset with r2_score: 0.47.
 
 The model optimization without and with PCA have been discussed in three separate jupyter notebooks as Model Development Part-1, Part-II Part-III and available in Github in following links:
 
@@ -112,7 +109,7 @@ The model optimization without and with PCA have been discussed in three separat
 [Model Development, Part-III jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_PCAall_final_Part_III_Report.ipynb)
 
 ## 8. Future Recommendations:
-In this project, all the possible ML predictive models have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, I believe, the model performance can be further improved with addition of more movie features like 'music quality, picture quality, chorography quality, actor ranking, user age,  etc. Hence, in future,  datasets on these should also be included for analysis and ML model building. 
+In this project, all the possible ML predictive models have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, I believe, the model performance can be further improved with addition of more movie features like 'music quality, picture quality, chorography quality, actors' ranking, users' age,  etc. Hence, in future,  datasets on these should also be included for analysis and ML model building. 
 
 ## 9. Acknowledgement
 I am grateful to Python developer community for providing many rich, versatile libraries to carry out all types of Data analysis and ML model building. I thank my Springboard mentor Yadunath Gupta for all his thoughtful guidance and constant encouragement to include code in its advance pythonic form which helped to me to improve myself while working in this project and complete successfully.  
