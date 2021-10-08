@@ -114,10 +114,10 @@ The model optimization without and with PCA have been discussed in three separat
 [Model Development, Part-III jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_PCAall_final_Part_III_Report.ipynb)
 
 ## 8. Future Recommendations:
-In this project, all the possible ML predictive models have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, I think, the model performance can be improved with addition of  more features like quality of music, quality of picture, actors ranking, users age, chorography etc. Hence, in future,  data on these should also be collected for analysis and ML model building . 
+In this project, all the possible ML predictive models have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, I believe, the model performance can be further improved with addition of more movie features like 'music quality, picture quality, chorography quality, actors' ranking, users' age,  etc. Hence, in future,  datasets on these should also be included for analysis and ML model building . 
 
 ## 9. Acknowledgement
- I am grateful to Python developer community for providing many rich, versatile libraries to carry out all types of Data analysis and ML model building. I thank my Springboard mentor Yadunath Gupta for all his thoughtful guidance and constant encouragement to include code in its advance pythonic form which helped to me to improve myself while working in this project and complete successfully.  
+I am grateful to Python developer community for providing many rich, versatile libraries to carry out all types of Data analysis and ML model building. I thank my Springboard mentor Yadunath Gupta for all his thoughtful guidance and constant encouragement to include code in its advance pythonic form which helped to me to improve myself while working in this project and complete successfully.  
 
 
 
