@@ -19,7 +19,7 @@ https://www.imdb.com/interfaces/
 
 Both datasets lists movies along with other features as columns. However, based on my requirement, I selected features those required for the predictive model building. To achieve this, I did data wrangling and the following were carried out: 
   
-Problem-1: Kaggle dataset listed both movies and TV shows. 
+**Problem-1:** Kaggle dataset listed both movies and TV shows. 
 Solution: I separated out the TV shows and only kept the movies for further data processing and model building.  
 
 Problem-2: The IMDB dataset has listed titles and original titles both for movies. 
