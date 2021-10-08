@@ -84,15 +84,13 @@ Feature engineering was carried out on both training and testing datasets as fol
 ## 7. Machine Learning (ML) models
 
 To predict the movies rating, different regression models: Simple Linear Regression, Lasso Regression, Ridge Regression, Random Forest Regressor, Gradient Boosting Regressor were developed. 
-
-•The Simple Linear regression model performance was poor, however it improved significantly when regularization was applied. Among Lasso and Ridge, the later one  performed better with r2_score (test set): 0.42. 
-
+•	The Simple Linear regression model performance was poor, however it improved significantly when regularization was applied. Among Lasso and Ridge, the later one  performed better with r2_score (test set): 0.42. 
 •	To have better performance, ensemble model Random Forest Regressor was developed. The highest r2_score obtained with this was 0.44. 
-
 •	To obtain more higher model performance, Gradient Boosting Regressor was developed. The highest r2_score obtained with this was 0.507 and this was the best model among all the models.    
-
 To improve the models’ performance, PCA (Principal Component Analysis) was applied on the data and models were trained again. However, though it helped Logistic Regression to improve its performance and run time, it couldn’t improve performance of both ensemble models. 
-Best model: Gradient Boosting Regressor was saved for deployment and tested on unseen data. 
+
+**Best model:** Gradient Boosting Regressor was saved for deployment and tested on unseen data. 
+
 
 model	r2_score
 Linear Regression	0.402
@@ -121,7 +119,7 @@ The model optimization without and with PCA have been discussed in three separat
 [Model Development, Part-III jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_PCAall_final_Part_III_Report.ipynb)
 
 ## 8. Future Recommendations:
-In this project, all the possible ML predictive models have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, I believe, the model performance can be further improved with addition of more movie features like 'music quality, picture quality, chorography quality, actors' ranking, users' age,  etc. Hence, in future,  datasets on these should also be included for analysis and ML model building . 
+In this project, all the possible ML predictive models have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, I believe, the model performance can be further improved with addition of more movie features like 'music quality, picture quality, chorography quality, actor ranking, user age,  etc. Hence, in future,  datasets on these should also be included for analysis and ML model building. 
 
 ## 9. Acknowledgement
 I am grateful to Python developer community for providing many rich, versatile libraries to carry out all types of Data analysis and ML model building. I thank my Springboard mentor Yadunath Gupta for all his thoughtful guidance and constant encouragement to include code in its advance pythonic form which helped to me to improve myself while working in this project and complete successfully.  
