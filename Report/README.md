@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/netflix_picture.pptx)
+![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_image.jpg)
 
 Netflix, a subscription-based streaming service offers online streaming of films and television series. Starting in 1997 in USA,  now it makes the service available in most of the parts  of the world.   It is well known for its efficient recommendation engines providing users choice. The engines work behind the scenes and provide user’s choice related contents. The engines use Content-based filtering algorithm, collaborative filtering algorithm or both.
 
@@ -92,13 +92,7 @@ To improve the models’ performance, PCA (Principal Component Analysis) was app
 **Best model:** Gradient Boosting Regressor was saved for deployment and tested on unseen data. 
 
 
-model	r2_score
-Linear Regression	0.402
-Lasso Regression	0.325
-Ridge Regression	0.42
-Random forest Regressor	0.44
-Gradient boosting Regressor (best model)	0.507(train)
-0.47(test)
+![]()
 
 
 Below is a table listing the best features, hyperparameters, and metrics of the best model:
