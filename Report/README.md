@@ -46,7 +46,7 @@ https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blo
        
 Detail investigations into each column of both datasets were carried out and following conclusions were drawn:
 •	Both datasets show USA ranked Number One in movie production, while India ranked Second followed by United Kingdom in Third place.
-![] (https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Overall_movie_duration.png)
+![] 
 
 
 
