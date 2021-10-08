@@ -79,11 +79,6 @@ Feature engineering was carried out on both training and testing datasets as fol
 1. Finally, all the dummies columns were added to the respective main datasets and original categorical columns were dropped.
 
 ## 7. Machine Learning (ML) models
-[Model Development, Part-I jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_final_Part_I_Report.ipynb)
-
-[Model Development, Part-II jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_final_Part_II_Report.ipynb)
-
-[Model Development, Part-III jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_PCAall_final_Part_III_Report.ipynb)
 
 To predict the movies rating, different regression models: Simple Linear Regression, Lasso Regression, Ridge Regression, Random Forest Regressor, Gradient Boosting Regressor were developed. 
 •	The Simple Linear regression model performance was poor, however it improved significantly when regularization was applied. Among Lasso and Ridge, the later one  performed better with r2_score (test set): 0.42. 
@@ -110,15 +105,17 @@ max_depth: 7	0.507(train)
 
 The final Gradient Boostimng model with r2_score : 0.50 was applied on the unseen movies to determine their ratings. The model performance was very close to train dataset with r2_score: 0.47.
 
-The model optimization without and with PCA have been discussed in three separate jupyter notebooks Part-1, Part-II Part-III and available in Github following links:
-•	Part-I
-•	https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Netflix_data_model_development_Part_II.ipynb 
-•	https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Netflix_data_model_development_PCAall_Part_III.ipynb
+The model optimization without and with PCA have been discussed in three separate jupyter notebooks Part-1, Part-II Part-III and available in Github in following links:
+[Model Development, Part-I jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_final_Part_I_Report.ipynb)
+
+[Model Development, Part-II jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_final_Part_II_Report.ipynb)
+
+[Model Development, Part-III jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_PCAall_final_Part_III_Report.ipynb)
 8. Future Recommendations:
-In this project, all the possible ML predictive models: Simple linear Regression, Lasso Regression, Ridge Regression, Random Forest Regressor, Gardient Boosting Regressor have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, the model performance is not very good. I think, the model performance can be improved with addition of  more features like quality of music, quality of picture, actors ranking, users age, chorography etc. Hence, in future,  data on these should also be collected for analysis and ML model building . 
+In this project, all the possible ML predictive models have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, I think, the model performance can be improved with addition of  more features like quality of music, quality of picture, actors ranking, users age, chorography etc. Hence, in future,  data on these should also be collected for analysis and ML model building . 
 
 ## 9. Acknowledgement
- I am grateful to Python developer community for providing many rich, versatile libraries to carry out all types of Data analysis and ML model building. I thank my mentor Yadunath Gupta for all his thoughtful guidance which helped me to dig deep into the project objective and solution, also  his constant encouragement to include advance pythonic way to write the code. Also, I like to thank springboard supporting staffs  for their  constant encouragement and my best services to gain knowledge in Data science.
+ I am grateful to Python developer community for providing many rich, versatile libraries to carry out all types of Data analysis and ML model building. I thank my Springboard mentor Yadunath Gupta for all his thoughtful guidance and constant encouragement to include code in its advance pythonic form which helped to me to improve myself while working in this project and complete successfully.  
 
 
 
