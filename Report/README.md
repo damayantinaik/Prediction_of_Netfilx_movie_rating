@@ -46,7 +46,10 @@ https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blo
        
 Detail investigations into each column of both datasets were carried out and following conclusions were drawn:
 •	Both datasets show USA ranked Number One in movie production, while India ranked Second followed by United Kingdom in Third place.
- The jupyter notebook containing the EDA can be found at: https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Netflix_EDA_submission2.ipynb
+![] 
+
+
+
 
 ## 6. Feature Engineering
 As the IMDB dataset was very large as compared to Kaggle dataset, before feature engineering, I formed two new datasets out of it. Movies, which were found only in IMDB dataset, but not in Kaggle were separated out and used for building the predictive model, whereas movies common to both are used for testing the model. 
