@@ -80,7 +80,6 @@ Feature engineering was carried out on both training and testing datasets as fol
 
 ## 7. Machine Learning (ML) models
 *[Model Development, Part-I jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_final_Part_I_Report.ipynb)
-
 *[Model Development, Part-II jupyter notebook]
 (https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_final_Part_II_Report.ipynb)
 
