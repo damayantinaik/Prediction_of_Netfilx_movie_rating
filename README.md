@@ -48,11 +48,12 @@ Detail investigations into each column of both datasets were carried out and fol
 ## 6. Feature Engineering
 As the IMDB dataset was very large as compared to Kaggle dataset, before feature engineering, I formed two new datasets out of it. Movies, which were found only in IMDB dataset, but not in Kaggle were separated out and used for building the predictive model, whereas movies common to both are used for testing the model. 
 Feature engineering was carried out on both training and testing datasets as follows: 
-•	Dummie variables for all the categorical columns: genre, language, actors, directors, writers, production company were created. For genre and language, the dummies for all the unique values were carried out, because it listed few varieties (<300),  however for rest of the columns, dummies for top 200 values in each column were obtained.
-•	Standard scaling was carried out for numerical columns:  duration_min, votes, reviews from users to keep them in similar range.  As their distribution  follow normal distribution, standard scaling was preferred among all other types of scaling.
-•	Few numerical columns had very high outliers, which were not mistakenly entered. However, as it might bias the ML (Machine Learning) model, hence, to avoid this, imputation was carried out, assigning  95th percentile value of the respective column to the outliers.
-•	Finally, all the dummies columns were added to the respective main datasets and original categorical columns were dropped.
-7. ML models
+1.Dummie variables for all the categorical columns: genre, language, actors, directors, writers, production company were created. For genre and language, the dummies for all the unique values were carried out, because it listed few varieties (<300),  however for rest of the columns, dummies for top 200 values in each column were obtained.
+1.Standard scaling was carried out for numerical columns:  duration_min, votes, reviews from users to keep them in similar range.  As their distribution  follow normal distribution, standard scaling was preferred among all other types of scaling.
+1. Few numerical columns had very high outliers, which were not mistakenly entered. However, as it might bias the ML (Machine Learning) model, hence, to avoid this, imputation was carried out, assigning  95th percentile value of the respective column to the outliers.
+1. Finally, all the dummies columns were added to the respective main datasets and original categorical columns were dropped.
+
+## 7. ML models
 To predict the movies rating, different regression models: Simple Linear Regression, Lasso Regression, Ridge Regression, Random Forest Regressor, Gradient Boosting Regressor were developed. 
 •	The Simple Linear regression model performance was poor, however it improved significantly when regularization was applied. Among Lasso and Ridge, the later one  performed better with r2_score (test set): 0.42. 
 •	To have better performance, ensemble model Random Forest Regressor was developed. The highest r2_score obtained with this was 0.44. 
