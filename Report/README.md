@@ -14,8 +14,8 @@ Different predictive models will be developed to predict movies users’ rating 
 ## 3. Data:
  
 The data was collected from Kaggle and IMDB website. The links are 
-* [Kaggle Dataset]https://www.kaggle.com/shivamb/netflix-shows
-* https://www.imdb.com/interfaces/
+* [Kaggle Dataset](https://www.kaggle.com/shivamb/netflix-shows)
+* [IMDB Dataset](https://www.imdb.com/interfaces/)
 
 
  ## 4. Data Cleaning/wrangling
