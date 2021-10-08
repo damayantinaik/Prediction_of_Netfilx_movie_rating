@@ -90,17 +90,13 @@ To predict the movies rating, different regression models: Simple Linear Regress
 To improve the models’ performance, PCA (Principal Component Analysis) was applied on the data and models were trained again. However, though it helped Logistic Regression to improve its performance and run time, it couldn’t improve performance of both ensemble models. 
 
 **Best model:** Gradient Boosting Regressor was saved for deployment and tested on unseen data. 
+The two tables below list the details about the models. 
 
-
+![]()
 ![]()
 
 
-Below is a table listing the best features, hyperparameters, and metrics of the best model:
-model	features	hyperparameters	R2_score
-Gradient boosting (best model)	700	Learning rate : 0.1
-n_estimators: 700
-max_depth: 7	0.507(train)
-0.47(test)
+
 
 The final Gradient Boostimng model with r2_score : 0.50 was applied on the unseen movies to determine their ratings. The model performance was very close to train dataset with r2_score: 0.47.
 
