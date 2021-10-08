@@ -41,7 +41,7 @@ Both datasets lists movies along with other features as columns. However, based 
 **Problem-6:** After the conversion of the date_added column to date, the year was extracted. The output obtained was float instead of integer. 
 **Solution:** To find out the reason, further investigation was carried out which shows that this is happening due to the presence of the null values in time stamp. To handle this, the null values were  filled with 0, then converted those to integer.
 
-Finally rows with Null values are removed to prepare the dataset for EDA( Exploratory Data Analysis). 
+Finally rows with Null values are removed to prepare the dataset for Exploratory Data Analysis. 
 
 
 ## 5. Exploratory Data Analysis (EDA)
