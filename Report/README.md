@@ -42,6 +42,7 @@ Finally rows with Null values are removed to prepare the dataset for EDA( Explor
 
 
 ## 5. Exploratory Data Analysis (EDA)
+[EDA jupyter notebook]([Data wrangling jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Capstone_Project_Netflix_Data_Wrangling_submission4_Report.ipynb))
        
 Detail investigations into each column of both datasets were carried out and following conclusions were drawn:
 •	Both datasets show USA ranked Number One in movie production, while India ranked Second followed by United Kingdom in Third place.
