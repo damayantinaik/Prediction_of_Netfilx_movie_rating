@@ -51,12 +51,14 @@ Detail investigations into each column of both datasets were carried out and fol
 •	Both datasets show USA ranked Number One in movie production, while India ranked Second followed by United Kingdom in Third place.
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Top_20_countries_in_Movie_production.png)
 
-•	These are three movie production companies:
-1.Metro-Goldwyn-Mayer 
+*	These are three movie production companies:
+
+1. Metro-Goldwyn-Mayer 
 2. Warner Bros.                 
-3. Columbia Pictures             
+3. Columbia Pictures   
 In USA, India and UK top movie production companies are ‘Metro-Goldwyn-May‘, ‘NH Studioz’ and  ‘The Rank Organisation’ respectively. 
-•	Both datasets show most of the movies are of length (approximately) 100 mins. However, it varies for different countries. In USA and UK movie length is ~100 minutes, whereas in India movies are of 150 minutes.
+
+*	Both datasets show most of the movies are of length (approximately) 100 mins. However, it varies for different countries. In USA and UK movie length is ~100 minutes, whereas in India movies are of 150 minutes.
 
 
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Overall_movie_duration.png)
@@ -84,9 +86,10 @@ Feature engineering was carried out on both training and testing datasets as fol
 ## 7. Machine Learning (ML) models
 
 To predict the movies rating, different regression models: Simple Linear Regression, Lasso Regression, Ridge Regression, Random Forest Regressor, Gradient Boosting Regressor were developed. 
-•	The Simple Linear regression model performance was poor, however it improved significantly when regularization was applied. Among Lasso and Ridge, the later one  performed better with r2_score (test set): 0.42. 
-•	To have better performance, ensemble model Random Forest Regressor was developed. The highest r2_score obtained with this was 0.44. 
-•	To obtain more higher model performance, Gradient Boosting Regressor was developed. The highest r2_score obtained with this was 0.507 and this was the best model among all the models.    
+
+* The Simple Linear regression model performance was poor, however it improved significantly when regularization was applied. Among Lasso and Ridge, the later one  performed better with r2_score (test set): 0.42. 
+* To have better performance, ensemble model Random Forest Regressor was developed. The highest r2_score obtained with this was 0.44. 
+* To obtain more higher model performance, Gradient Boosting Regressor was developed. The highest r2_score obtained with this was 0.507 and this was the best model among all the models.    
 To improve the models’ performance, PCA (Principal Component Analysis) was applied on the data and models were trained again. However, though it helped Logistic Regression to improve its performance and run time, it couldn’t improve performance of both ensemble models. 
 
 **Best model:** Gradient Boosting Regressor was saved for deployment and tested on unseen data. 
