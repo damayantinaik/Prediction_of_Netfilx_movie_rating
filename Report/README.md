@@ -90,7 +90,7 @@ To predict the movies rating, different regression models: Simple Linear Regress
 * The Simple Linear regression model performance was poor, however it improved significantly when regularization was applied. Among Lasso and Ridge, the later one  performed better with r2_score (test set): 0.42. 
 * To have better performance, ensemble model Random Forest Regressor was developed. The highest r2_score obtained with this was 0.44. 
 * To obtain more higher model performance, Gradient Boosting Regressor was developed. The highest r2_score obtained with this was 0.507 and this was the best model among all the models.    
-To improve the models’ performance, PCA (Principal Component Analysis) was applied on the data and models were trained again. However, though it helped Logistic Regression to improve its performance and run time, it couldn’t improve performance of both ensemble models. 
+To improve the models’ performance, PCA (Principal Component Analysis) was applied on the data and models were trained again. However, though it helped Linear Regression to improve its performance and run time, it couldn’t improve performance of both ensemble models. 
 
 **Best model:** Gradient Boosting Regressor was saved for deployment and tested on unseen data. 
 The two tables below list the details about the models. 
