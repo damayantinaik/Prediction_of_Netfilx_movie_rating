@@ -4,14 +4,15 @@
 
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/netflix_picture.jpg)
 
-Netflix, a subscription-based streaming service offers online streaming of films and television series. Starting in 1997 in USA,  now it makes the service available in most of the parts  of the world.   It is well known for its efficient recommendation engines providing users choice. The engines work behind the scenes and provide user’s choice related contents. The engines use Content-based filtering algorithm, collaborative filtering algorithm or both.
+Netflix, a subscription-based streaming service offers online streaming of films and television series. Starting in 1997 in USA, now it makes the service available in most of the countries in the world.   It is well known for its efficient recommendation engines providing users choice. The engines work behind the scenes and provide user’s choice related contents. The engines use Content-based filtering algorithm, collaborative filtering algorithm or hybrid of both.
 
-User rating(review) plays an important role in recommendation system. The users (called subscribers/viewers/member) rate movies based on various features of  a movie like genre, actor, director, title, language, country, duration, production company etc. History of users choice on different types of movies also helps to predict the rating of the unseen movie. 
+User rating(review) plays an important role in recommendation system. The users (called subscribers/viewers/member) rate movies based on various features of a movie: genre, actor, director, title, language, country, duration, production company etc. 
+ 
 
 
 ## 2. Problem statement
 
-Different predictive models will be developed to predict movies users’ rating and the best one will be selected based on the R2-score (co-efficient of determination) i.e how close the actual ratings are close to the predicted values. 
+Predictive models will be developed to predict movies users’ rating and the best one will be selected based on the R2-score (co-efficient of determination) i.e how close the actual ratings are to the predicted values.  
 
 
 ## 3. Data:
@@ -24,24 +25,24 @@ The data was collected from Kaggle and IMDB website. The links are
  ## 4. Data Cleaning/wrangling
  [Data wrangling jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Capstone_Project_Netflix_Data_Wrangling_submission4_Report.ipynb)
 
-Both datasets lists movies along with other features as columns. However, based on my requirement, I selected features those required for the predictive model building. To achieve this, I did data wrangling and the following were carried out: 
-  
-**Problem-1:** Kaggle dataset listed both movies and TV shows. 
-**Solution:** I separated out the TV shows and only kept the movies for further data processing and model building.  
+Both datasets list movies and their features as columns. However, based on my requirement, I selected the features those required for the predictive model building. To achieve this, I carried out data wrangling as follows:
+
+**Problem-1:** Kaggle dataset listed both movies and TV shows.  
+**Solution:** I separated out the TV shows and only kept the movies for further data processing and model building.   
 
 **Problem-2:** The IMDB dataset has listed titles and original titles both for movies. 
 **Solution:** I dropped the ‘title’ column preserving only the ‘original_title’.
 
-**Problem-3:** The duration time was including both numbers and unit(minute). 
-**Solution:** Minute was deleted and only numerical value was kept.
+**Problem-3:** The movie duration time column had both numbers and unit (minute). 
+**Solution:** Unit was deleted and only numerical value was kept.
 
-**Problem-5:** IMDB and Kaggle dataset both contains some columns (date_published, metascore, usa_gross_income, worlwide_gross_income, budget, reviews_from_critics) which seems to be not useful for predictive model building. 
+**Problem-5:** IMDB and Kaggle dataset both contains some columns (date published, metascore, USA gross income, worldwide gross income, budget, reviews from critics) which seemed to be not useful for predictive model building. 
 **Solution:** These columns were deleted from respective datasets.
 
-**Problem-6:** After the conversion of the date_added column to date, the year was extracted. The output obtained was float instead of integer. 
-**Solution:** To find out the reason, further investigation was carried out which shows that this is happening due to the presence of the null values in time stamp. To handle this, the null values were  filled with 0, then converted those to integer.
+**Problem-6:** After the conversion of the date added column to date, year was extracted. The output obtained was float instead of integer. 
+**Solution:** Further investigation was carried out, which showed, it was due to few null values in that column. The null values were filled with 0, and then converted the column to integer.
 
-Finally rows with Null values are removed to prepare the dataset for Exploratory Data Analysis. 
+Finally, all the rows with the null values were removed  from the dataset for EDA (Exploratory Data Analysis). 
 
 
 ## 5. Exploratory Data Analysis (EDA)
@@ -112,7 +113,7 @@ The model optimization without and with PCA have been discussed in three separat
 In this project, all the possible ML predictive models have been applied to obtain the best model performance with maximum possible hyperparameter tuning. However, I believe, the model performance can be further improved with addition of more movie features like 'music quality, picture quality, chorography quality, actors' ranking, users' age,  etc. Hence, in future,  datasets on these should also be included for analysis and ML model building. 
 
 ## 9. Acknowledgement
-I am grateful to Python developer community for providing many rich, versatile libraries to carry out all types of Data analysis and ML model building. I thank my Springboard mentor Yadunath Gupta for all his thoughtful guidance and constant encouragement to include code in its advance pythonic form which helped to me to improve myself while working in this project and complete successfully.  
+I am grateful to Python developer community for providing many rich, versatile libraries to carry out all types of Data analysis and ML model building. I thank my Springboard mentor Yadunath Gupta for all his thoughtful guidance and constant encouragement to include code in its advance pythonic form which helped to me to improve myself while working in this project and complete it successfully.  
 
 
 
