@@ -49,17 +49,18 @@ Finally, all the rows with the null values were removed  from the dataset for ED
 [EDA jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_EDA_submission2_for_report.ipynb)
        
 Detail investigations into each column of both datasets were carried out and following conclusions were drawn:
+
 •	Both datasets show USA ranked Number One in movie production, while India ranked Second followed by United Kingdom in Third place.
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Top_20_countries_in_Movie_production.png)
 
-*	These are three movie production companies:
+*	These are the top three movie production companies:
 
 1. Metro-Goldwyn-Mayer 
 2. Warner Bros.                 
 3. Columbia Pictures   
 In USA, India and UK top movie production companies are ‘Metro-Goldwyn-May‘, ‘NH Studioz’ and  ‘The Rank Organisation’ respectively. 
 
-*	Both datasets show most of the movies are of length (approximately) 100 mins. However, it varies for different countries. In USA and UK movie length is ~100 minutes, whereas in India movies are of 150 minutes.
+*	Both datasets show most of the movies are of duration (approximately) 90 mins. However, it varies for different countries. In USA and UK movies are of 90-100 minutes, whereas in India movies are of 120-150 minutes.
 
 
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Overall_movie_duration.png)
