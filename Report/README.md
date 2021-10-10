@@ -95,7 +95,7 @@ To improve the models’ performance, PCA (Principal Component Analysis) was app
 **Best model:** Gradient Boosting Regressor was saved for deployment and tested on unseen data. 
 The two tables below list the details about the models. 
 
-![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/r2_score_models.PNG)
+![](https://https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/all_models.png)
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/gradient_boosting_score.PNG)
 
 The final Gradient Boostimng model was applied on the unseen movies to determine their ratings. The model performance was very close to train dataset with r2_score: 0.47.
