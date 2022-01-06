@@ -101,7 +101,7 @@ The two tables below list the details about the ML models.
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/all_models.png)
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/gradient_boosting.png)
 
-The Gradient Boosting Regressor model was finally applied on the unseen movies data and got r2 R2 score of 0.47.
+The Gradient Boosting Regressor model was applied on the unseen movies data and also got R2 score of 0.51.
 
 The model optimization without and with PCA have been discussed in three separate jupyter notebooks Part-1, Part-II Part-III and available in Github in the following links:
 
