@@ -70,7 +70,7 @@ Best model: Gradient Boosting Regressor was saved for deployment and tested on u
 Below is a table listing the best features, hyperparameters, and metrics of the best model:
 ![]()
 
-The final Gradient Boostimng model with r2_score : 0.50 was applied on the unseen movies to determine their ratings. The model performance was very close to train dataset with r2_score: 0.47.
+The final Gradient Boostimng model with r2_score : 0.51 was applied on the unseen movies to determine their ratings. The model performance was very close to train dataset with r2_score: 0.51.
 
 The model optimization without and with PCA have been discussed in three separate jupyter notebooks Part-1, Part-II Part-III and available in Github following links:
 •	Part-I
