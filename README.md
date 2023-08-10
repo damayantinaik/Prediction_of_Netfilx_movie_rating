@@ -70,7 +70,7 @@ In USA, India and UK top movie production companies are ‘Metro-Goldwyn-May‘,
 
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Indian_movie_duration.png)
 
-![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/UK_movie_duration.png)
+![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/UK_movie_duration.png)
 
 
 
