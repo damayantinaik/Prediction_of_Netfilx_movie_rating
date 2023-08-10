@@ -63,7 +63,7 @@ In USA, India and UK top movie production companies are ‘Metro-Goldwyn-May‘,
 *	Both datasets show most of the movies are of duration (approximately) 90 mins. However, it varies for different countries. In USA and UK movies are of 90-100 minutes, whereas in India movies are of 120-150 minutes.
 
 
-![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Overall_movie_duration.png)
+![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Overall_movie_duration.png)
 
 
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/USA_movie_duration.png)
