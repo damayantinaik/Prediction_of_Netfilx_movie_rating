@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/netflix_picture.jpg)
+![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/netflix_picture.jpg)
 
 Netflix, a subscription-based streaming service offers online streaming of films and television series. Starting in 1997 in USA, now it makes the service available in most of the countries in the world.   It is well known for its efficient recommendation engines providing users choice. The engines work behind the scenes and provide user’s choice related contents. The engines use Content-based filtering algorithm, collaborative filtering algorithm or hybrid of both.
 
