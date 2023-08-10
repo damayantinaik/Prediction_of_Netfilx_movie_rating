@@ -51,7 +51,7 @@ Finally, all the rows with the null values were removed  from the dataset for ED
 Detail investigations into each column of both datasets were carried out and following conclusions were drawn:
 
 •	Both datasets show USA ranked Number One in movie production, while India ranked Second followed by United Kingdom in Third place.
-![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Top_20_countries_in_Movie_production.png)
+![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Top_20_countries_in_Movie_production.png)
 
 *	These are the top three movie production companies:
 
