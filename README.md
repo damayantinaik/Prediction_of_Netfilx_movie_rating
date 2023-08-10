@@ -98,7 +98,7 @@ To improve the models’ performance, PCA (Principal Component Analysis) was app
 
 The two tables below list the details about the ML models. 
 
-![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/all_models.png)
+![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/all_models.png)
 ![](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/gradient_boosting.png)
 
 The Gradient Boosting Regressor model was applied on the unseen movies data and also got R2 score of 0.51.
