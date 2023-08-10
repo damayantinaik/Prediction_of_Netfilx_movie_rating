@@ -109,7 +109,7 @@ The model optimization without and with PCA have been discussed in three separat
 
 [Model Development, Part-II jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Model_development_Part_II.ipynb)
 
-[Model Development, Part-III jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_data_model_development_PCAall_final_Part_III_Report.ipynb)
+[Model Development, Part-III jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Model_development_with_PCA_Part_III.ipynb)
 
 ## 8. Future Recommendations:
 In this project, different ML predictive models have been developed to obtain the maximum possible performance with all possible hyperparameter tuning. However, the model performance can further be improved with inclusion of more features like music quality, picture quality, chorography quality, actors’ ranking, users’ age, etc. Hence, I’ll recommend to consider these data for model building in future.
