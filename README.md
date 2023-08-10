@@ -46,7 +46,7 @@ Finally, all the rows with the null values were removed  from the dataset for ED
 
 
 ## 5. Exploratory Data Analysis (EDA)
-[EDA jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Netflix_EDA_submission2_for_report.ipynb)
+[EDA jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Exploratory_data_analysis.ipynb)
        
 Detail investigations into each column of both datasets were carried out and following conclusions were drawn:
 
