@@ -23,7 +23,7 @@ The data was collected from Kaggle and IMDB website. The links are
 
 
  ## 4. Data Cleaning/wrangling
- [Data wrangling jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Report/Capstone_Project_Netflix_Data_Wrangling_submission4_Report.ipynb)
+ [Data wrangling jupyter notebook](https://github.com/damayantinaik/Springboard_Week_7_Capstone_Project_Netfilx/blob/main/Data_Wrangling.ipynb)
 
 Both datasets list movies and their features as columns. However, based on my requirement, I selected the features those required for the predictive model building. To achieve this, I carried out data wrangling as follows:
 
